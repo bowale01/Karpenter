@@ -1,3 +1,4 @@
+
 How Karpenter Works
 Karpenter takes a different approach to autoscaling than the standard cluster autoscaler. 
 
