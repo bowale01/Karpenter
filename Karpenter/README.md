@@ -2,6 +2,14 @@
 How Karpenter Works
 Karpenter takes a different approach to autoscaling than the standard cluster autoscaler. 
 
+#Main differnce between Cluster Austo scalar and KUstomise 
+Scope:
+Cluster Autoscaler operates at the node level, adding or removing entire nodes to meet the overall demand.
+Karpenter operates at the workload level, allowing for finer-grained resource allocation based on defined workload profiles.
+Customization:
+While Cluster Autoscaler provides some basic configuration options, Karpenter provides more advanced customization through resource classes tailored to specific workload needs.
+
+
 standard cluster autoscaler  add or removing nodes based on demand, 
 
 Karpenter  :- provisions nodes based on application requirements. This means that it can optimize resource utilization and reduce costs.
