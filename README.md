@@ -12,3 +12,5 @@ Karpenter is an open-source node provisioning project built for Kubernetes. Karp
   Migrating to karpenter from tradition cluster Autoscaler
   
 - https://karpenter.sh/docs/getting-started/migrating-from-cas/
+
+- https://tech.autoscout24.com/blog/posts/impact-of-karpenter/
